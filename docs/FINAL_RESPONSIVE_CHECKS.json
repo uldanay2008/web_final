@@ -1,0 +1,122 @@
+[
+  {
+    "page": "account",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  },
+  {
+    "page": "profile",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  },
+  {
+    "page": "products",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  },
+  {
+    "page": "contact",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  },
+  {
+    "page": "index",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  },
+  {
+    "page": "makeup",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  },
+  {
+    "page": "tips",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  },
+  {
+    "page": "team",
+    "mobile": {
+      "content": 375,
+      "width": 375
+    },
+    "tablet": {
+      "content": 753,
+      "width": 753
+    },
+    "desktop": {
+      "content": 1265,
+      "width": 1265
+    }
+  }
+]
