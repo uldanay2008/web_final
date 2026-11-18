@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your account - Winx Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/assignment5.css">
+    <link rel="stylesheet" href="css/assignment6.css">
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/final.css">
+<link rel="stylesheet" href="css/interface.css?v=4">
+</head>
+<body class="studio-page page-account">
+<a class="skip-link" href="#main-content">Skip to main content</a><div id="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+<div id="winx-toast" role="status" aria-live="polite" hidden></div>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg winx-navbar" aria-label="Main navigation">
+            <a href="index.html" class="navbar-brand logo">WINX STUDIO<span>BEAUTY · STYLE · CONFIDENCE</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav nav-menu ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="makeup.html">Makeup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="account.html" aria-current="page">Account</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="final-toolbar site-tools">
+<span>Make yourself at home</span><a href="profile.html">My profile</a><button type="button" class="tool-button" id="theme-toggle" aria-pressed="false">Dark mode</button>
+</div>
+    </header>
+    <main class="container final-page" id="main-content"><section class="page-title"><div class="page-wrap">
+<p class="eyebrow">MAKE YOURSELF AT HOME</p>
+<h1>Your Winx Studio account</h1>
+<p>Save a little beauty inspiration for later.</p>
+</div></section>
+<div class="final-account-grid">
+<section class="final-panel"><h2>Sign up</h2>
+<form id="signup-form" novalidate>
+<div class="mb-3">
+<label for="signup-name" class="form-label fw-bold">Name</label><input class="form-control" type="text" id="signup-name" autocomplete="name" aria-describedby="signup-name-error"><p class="field-error" id="signup-name-error" aria-live="polite"></p>
+</div>
+<div class="mb-3">
+<label for="signup-email" class="form-label fw-bold">Email</label><input class="form-control" type="text" id="signup-email" autocomplete="email" aria-describedby="signup-email-error"><p class="field-error" id="signup-email-error" aria-live="polite"></p>
+</div>
+<div class="mb-3">
+<label for="signup-phone" class="form-label fw-bold">Phone</label><input class="form-control" type="tel" id="signup-phone" autocomplete="tel" aria-describedby="signup-phone-error"><p class="field-error" id="signup-phone-error" aria-live="polite"></p>
+</div>
+<div class="mb-3">
+<label for="signup-password" class="form-label fw-bold">Demo password</label><input class="form-control" type="password" id="signup-password" autocomplete="new-password" aria-describedby="signup-password-error"><p class="field-error" id="signup-password-error" aria-live="polite"></p>
+</div>
+<p class="form-hint">8+ characters with uppercase, lowercase, a number and a symbol.</p>
+<div class="mb-3">
+<label for="signup-confirm" class="form-label fw-bold">Confirm password</label><input class="form-control" type="password" id="signup-confirm" autocomplete="new-password" aria-describedby="signup-confirm-error"><p class="field-error" id="signup-confirm-error" aria-live="polite"></p>
+</div>
+<p id="signup-status" role="status"></p>
+<button type="submit" class="winx-action">Create demo account</button>
+</form></section><section class="final-panel"><h2>Log in</h2>
+<form id="login-form" novalidate>
+<div class="mb-3">
+<label for="login-email" class="form-label fw-bold">Email</label><input class="form-control" type="text" id="login-email" autocomplete="email" aria-describedby="login-email-error"><p class="field-error" id="login-email-error" aria-live="polite"></p>
+</div>
+<div class="mb-3">
+<label for="login-password" class="form-label fw-bold">Demo password</label><input class="form-control" type="password" id="login-password" autocomplete="current-password" aria-describedby="login-password-error"><p class="field-error" id="login-password-error" aria-live="polite"></p>
+</div>
+<p id="login-status" role="status"></p>
+<button type="submit" class="winx-action">Log in</button>
+</form>
+<p class="mt-4">Already signed in? <a href="profile.html">Open your profile</a>.</p></section>
+</div></main>
+    <footer class="site-footer">
+        <p class="footer-logo">Winx Studio</p>
+        <p>Team members: Assylzhan, Uldanay</p>
+        <div class="a6-copy-row">
+<span id="studio-email">info@winxstudio.com</span><button type="button" class="winx-action" id="copy-email" aria-describedby="copy-tooltip">Copy email</button><span id="copy-tooltip" role="tooltip" hidden>Copied to clipboard!</span><span id="copy-status" role="status"></span>
+</div>
+<div class="interactive-tools">
+            <button type="button" class="winx-action" id="change-background">Change background</button>
+            <button type="button" class="winx-action" id="open-subscribe">Subscribe to beauty tips</button>
+            <p>Local date and time: <time id="current-datetime"></time></p>
+        </div>
+    </footer>
+    <dialog id="subscribe-dialog" aria-labelledby="subscribe-title">
+        <button type="button" id="close-subscribe" class="popup-close" aria-label="Close subscription form">×</button>
+        <h2 id="subscribe-title">Beauty tips newsletter</h2>
+        <form id="subscribe-form" novalidate>
+            <label for="subscribe-email">Email</label>
+            <input id="subscribe-email" type="text" inputmode="email" autocomplete="email">
+            <p id="subscribe-error" class="field-error" aria-live="polite"></p>
+            <button type="submit" class="winx-action">Subscribe</button>
+            <p id="subscribe-status" role="status"></p>
+        </form>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/validation.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/assignment5.js" defer></script>
+    <script src="js/assignment6.js" defer></script>
+    <script src="js/final.js" defer></script>
+</body>
+</html>
