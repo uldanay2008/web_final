@@ -1,4 +1,4 @@
-# Winx Studio - Final Project (original design)
+# Winx Studio - Final Project 
 
 Team: Winx Studio. Members: Uldanay and Assylzhan.
 Built on the supplied Assignment 5 project. Original layout and Assignment 6 interactions are retained. Final additions: persistent light/dark theme, Account and Profile pages, browser-local signup/login/logout, explicit shared JavaScript validation including phone and password complexity, and a live beauty API on Products. See docs/FINAL_CHANGES_RU.md and docs/FINAL_TESTING.md.
